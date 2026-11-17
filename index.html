@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Talayan Coffee Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1 class="fade-up">Talayan Coffee Shop</h1>
+    <p class="fade-up delay-1">Brewing warmth in every cup ☕</p>
+    <a href="#menu" class="btn fade-up delay-2"><i class="fas fa-mug-hot"></i> View Our Menu</a>
+  </section>
+
+  <div class="container">
+
+    <!-- MENU SECTION -->
+    <div id="menu" class="fade-up delay-2">
+      <h2 class="section-title">Our Menu</h2>
+    </div>
+
+    <div class="menu-tabs fade-up delay-3">
+      <button class="menu-tab active" data-category="all">
+        <i class="fas fa-th-large"></i> All
+      </button>
+      <button class="menu-tab" data-category="hot">
+        <i class="fas fa-mug-hot"></i> Hot Coffee
+      </button>
+      <button class="menu-tab" data-category="iced">
+        <i class="fas fa-glass-whiskey"></i> Iced Coffee
+      </button>
+    </div>
+
+    <div class="menu-grid fade-up delay-4">
+
+      <!-- ============================================================ -->
+      <!-- HOT COFFEE ITEMS -->
+      <!-- ============================================================ -->
+
+      <div class="menu-card" data-category="hot">
+        <div class="menu-card-badge hot-badge"><i class="fas fa-fire"></i> Hot</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/espresso.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/hot1.jpg" alt="Espresso" onerror="this.src='https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?w=400&q=80'">
+        </div>
+        <h3>Espresso</h3>
+        <p class="menu-desc">Rich, bold single shot of pure coffee</p>
+        <div class="menu-price">₱80</div>
+      </div>
+
+      <div class="menu-card" data-category="hot">
+        <div class="menu-card-badge hot-badge"><i class="fas fa-fire"></i> Hot</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/americano.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/americano.jpg" alt="Americano" onerror="this.src='https://images.unsplash.com/photo-1551030173-122aabc4489c?w=400&q=80'">
+        </div>
+        <h3>Americano</h3>
+        <p class="menu-desc">Espresso with hot water, smooth finish</p>
+        <div class="menu-price">₱95</div>
+      </div>
+
+      <div class="menu-card" data-category="hot">
+        <div class="menu-card-badge hot-badge"><i class="fas fa-fire"></i> Hot</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/cappuccino.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/cappuccino.jpg" alt="Cappuccino" onerror="this.src='https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80'">
+        </div>
+        <h3>Cappuccino</h3>
+        <p class="menu-desc">Espresso, steamed milk & creamy foam</p>
+        <div class="menu-price">₱120</div>
+      </div>
+
+      <div class="menu-card" data-category="hot">
+        <div class="menu-card-badge hot-badge"><i class="fas fa-fire"></i> Hot</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/latte.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/latte.jpg" alt="Café Latte" onerror="this.src='https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80'">
+        </div>
+        <h3>Café Latte</h3>
+        <p class="menu-desc">Smooth espresso with silky steamed milk</p>
+        <div class="menu-price">₱125</div>
+      </div>
+
+      <div class="menu-card" data-category="hot">
+        <div class="menu-card-badge hot-badge"><i class="fas fa-fire"></i> Hot</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/mocha.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/mocha.jpg" alt="Mocha" onerror="this.src='https://images.unsplash.com/photo-1578374173713-32f6ae6f276e?w=400&q=80'">
+        </div>
+        <h3>Mocha</h3>
+        <p class="menu-desc">Espresso, chocolate & steamed milk</p>
+        <div class="menu-price">₱130</div>
+      </div>
+
+      <div class="menu-card" data-category="hot">
+        <div class="menu-card-badge hot-badge"><i class="fas fa-fire"></i> Hot</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/caramel-macchiato.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/caramel-macchiato.jpg" alt="Caramel Macchiato" onerror="this.src='https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=400&q=80'">
+        </div>
+        <h3>Caramel Macchiato</h3>
+        <p class="menu-desc">Espresso, vanilla, milk & caramel drizzle</p>
+        <div class="menu-price">₱140</div>
+      </div>
+
+      <!-- ============================================================ -->
+      <!-- ICED COFFEE ITEMS -->
+      <!-- ============================================================ -->
+
+      <div class="menu-card" data-category="iced">
+        <div class="menu-card-badge iced-badge"><i class="fas fa-snowflake"></i> Iced</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/iced-americano.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/iced-americano.jpg" alt="Iced Americano" onerror="this.src='https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&q=80'">
+        </div>
+        <h3>Iced Americano</h3>
+        <p class="menu-desc">Refreshing espresso over ice & cold water</p>
+        <div class="menu-price">₱105</div>
+      </div>
+
+      <div class="menu-card" data-category="iced">
+        <div class="menu-card-badge iced-badge"><i class="fas fa-snowflake"></i> Iced</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/iced-latte.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/iced-latte.jpg" alt="Iced Latte" onerror="this.src='https://images.unsplash.com/photo-1558857563-b371033873b8?w=400&q=80'">
+        </div>
+        <h3>Iced Latte</h3>
+        <p class="menu-desc">Chilled espresso with cold milk over ice</p>
+        <div class="menu-price">₱130</div>
+      </div>
+
+      <div class="menu-card" data-category="iced">
+        <div class="menu-card-badge iced-badge"><i class="fas fa-snowflake"></i> Iced</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/iced-mocha.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/iced-mocha.jpg" alt="Iced Mocha" onerror="this.src='https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=400&q=80'">
+        </div>
+        <h3>Iced Mocha</h3>
+        <p class="menu-desc">Espresso, chocolate & cold milk on ice</p>
+        <div class="menu-price">₱140</div>
+      </div>
+
+      <div class="menu-card" data-category="iced">
+        <div class="menu-card-badge iced-badge"><i class="fas fa-snowflake"></i> Iced</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/iced-caramel-macchiato.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/iced-caramel-macchiato.jpg" alt="Iced Caramel Macchiato" onerror="this.src='https://images.unsplash.com/photo-1599398054066-846f28917f38?w=400&q=80'">
+        </div>
+        <h3>Iced Caramel Macchiato</h3>
+        <p class="menu-desc">Vanilla, cold milk, espresso & caramel on ice</p>
+        <div class="menu-price">₱150</div>
+      </div>
+
+      <div class="menu-card" data-category="iced">
+        <div class="menu-card-badge iced-badge"><i class="fas fa-snowflake"></i> Iced</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/cold-brew.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/cold-brew.jpg" alt="Cold Brew" onerror="this.src='https://images.unsplash.com/photo-1517959105821-eaf2591984ca?w=400&q=80'">
+        </div>
+        <h3>Cold Brew</h3>
+        <p class="menu-desc">Steeped 12 hours, smooth & bold over ice</p>
+        <div class="menu-price">₱135</div>
+      </div>
+
+      <div class="menu-card" data-category="iced">
+        <div class="menu-card-badge iced-badge"><i class="fas fa-snowflake"></i> Iced</div>
+        <div class="menu-image">
+          <!-- PALITAN ANG "images/iced-spanish-latte.jpg" NG PANGALAN NG IYONG IMAGE -->
+          <img src="images/iced-spanish-latte.jpg" alt="Iced Spanish Latte" onerror="this.src='https://images.unsplash.com/photo-1541167760496-1628856ab772?w=400&q=80'">
+        </div>
+        <h3>Iced Spanish Latte</h3>
+        <p class="menu-desc">Espresso, condensed milk & cold milk on ice</p>
+        <div class="menu-price">₱145</div>
+      </div>
+
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact" class="fade-up delay-2" style="margin-top: 5rem;">
+      <h2 class="section-title">Find Us & Contact</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card fade-up delay-3">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Address</h3>
+        <p>123 Talayan Street,<br>Barangay Talayan, Maguindanao,<br>Philippines 9612</p>
+        <p style="font-size: 1rem; margin-top: 8px; color: #7a5e44;"><i class="fas fa-clock"></i> Open daily 7am – 9pm</p>
+      </div>
+
+      <div class="contact-card fade-up delay-3">
+        <i class="fas fa-phone-alt"></i>
+        <h3>Contact Number</h3>
+        <p><a href="tel:+6321234567">09557058914</a></p>
+        <p><a href="tel:+639171234567">09559064692</a></p>
+        <p style="font-size: 1rem; margin-top: 8px; color: #7a5e44;"><i class="fas fa-envelope"></i> hello@talayancoffee.ph</p>
+      </div>
+
+      <div class="contact-card fade-up delay-3">
+        <i class="fas fa-comment-dots"></i>
+        <h3>Message Us</h3>
+        <p><a href="mailto:hello@talayancoffee.ph">hello@talayancoffee.ph</a></p>
+        <p style="font-size: 1rem; margin-top: 8px; color: #7a5e44;">We reply within 24 hours</p>
+      </div>
+    </div>
+
+    <h2 class="section-title fade-up delay-4">Connect with Us</h2>
+    <div class="social-platforms fade-up delay-4">
+      <a href="https://www.facebook.com/leila.makadatu.2024" target="_blank" rel="noopener" class="social-link facebook">
+        <i class="fab fa-facebook"></i>
+        <span>Facebook</span>
+      </a>
+      <a href="https://tiktok.com/@talayancoffee" target="_blank" rel="noopener" class="social-link tiktok">
+        <i class="fab fa-tiktok"></i>
+        <span>TikTok</span>
+      </a>
+      <a href="https://www.instagram.com/emj.mk_?vrfl=MW9raXNlOGp6dzU4bA==" target="_blank" rel="noopener" class="social-link instagram">
+        <i class="fab fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+    </div>
+
+    <div class="coffee-highlights fade-up delay-5">
+      <div class="highlight-item">
+        <i class="fas fa-seedling"></i> Organic Beans
+      </div>
+      <div class="highlight-item">
+        <i class="fas fa-cookie-bite"></i> Fresh Pastries
+      </div>
+      <div class="highlight-item">
+        <i class="fas fa-wifi"></i> Free Wi-Fi
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p><i class="fas fa-copyright"></i> 2025 Talayan Coffee Shop — brewed with <i class="fas fa-heart"></i> in Talayan</p>
+    <p style="font-size: 0.9rem; margin-top: 0.8rem; opacity: 0.8;">
+      <i class="fas fa-phone"></i> (02) 1234 5678  |  <i class="fas fa-map-pin"></i> 123 Talayan St, QC
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
